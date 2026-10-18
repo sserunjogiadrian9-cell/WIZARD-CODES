@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vision@restaurant.co.ug//contact-us</title>
+    <style>
+        body{
+            margin: 0px;
+            background-color: #f5f5f5;
+            text-align: center;
+            color: #333;
+            font-family: Calibri;
+        
+        }
+
+        header{
+            background-color: #000;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+
+        header h1{
+            font-size: 35px;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        nav{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        nav a{
+            text-decoration: none;
+            color: #fff;
+            
+
+        }
+
+        nav a:hover{
+            color: #fb6000;
+            font-size: 17px;
+
+        }
+
+        .contact{
+            
+            background-color: #fff;
+            padding: 30px;
+            text-align: center;
+            
+            
+
+        }
+
+        .contact h2{
+            color: #fb6000;
+        }
+
+        .cont{
+            background: linear-gradient(rgba(0, 0, 0, 0.706), rgba(2, 26, 10, 0.801)), url(foods/care.jpg);
+            padding: 70px;
+            color: #ff6600;
+            font-size: 40px;
+        }
+
+        .care{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 80px;
+            
+        }
+
+        .con{
+            background-color: #e9e3dd59;
+            width: 500px;
+            color: #333;
+            border-radius: 30px;
+        }
+
+        .con h3{
+             color: #ff6600;
+        }
+
+        .contact-form{
+            background-color: #fff;
+            padding: 35px;
+            flex: 1.5;
+            border-radius: 10px;
+            box-shadow: 0 3px 15px #ddd;
+        }
+
+        .contact-form h2{
+            color: #ff6600;
+            margin-bottom: 20px;
+        }
+
+        .contact-form label{
+            display: block;
+            margin-bottom: 6px;
+            font-weight: bold;
+        }
+
+        .contact-form input,
+        .contact-form textarea{
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 18px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 15px;
+        }
+
+        .contact-form textarea{
+            height: 130px;
+            resize: vertical;
+        }
+
+        .contact-form button{
+            background-color: #333;
+            color: #fff;
+            padding: 13px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .contact-form button:hover{
+            background-color: #ff6600;
+        }
+
+
+
+
+        footer{
+            background-color: #000;
+
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-top: 110px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vision Restaurant</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about-us.html">About Us</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html">Contact</a>     
+        </nav>
+    </header>
+    <section class="cont">
+        <h2>Contact Us</h2>
+
+    </section>
+    <section class="contact-form">
+        <h2>Send Us a Message</h2>
+        <form action="#" method="post">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter email" required>
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Enter Message Subject" required>
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" placeholder="Write your message here" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>  
+
+    <section class="contact">
+        
+        <div class="care">
+        
+            <div class="con">
+                <h3>Contact Details</h3>
+                <p><strong>Phone : </strong> 0800 285 285</p>
+                <p><strong>Email : </strong>vision@restaurant.co.ug</p>
+                <p><strong>Location : </strong> Kampala, Uganda</p>
+            </div>
+            <div class="con">
+                <h3>Opening Hours</h3>
+                <p>Monday - Friday: 8:00 AM - 10:00 PM</p>
+                <p>Saturday - Sunday: 9:00 AM - 11:00 PM</p>
+                <p>We are also open on public holidays</p>
+            </div>
+        </div>
+    </section> 
+   
+    <footer>
+        <p>&copy2026 Vision Restaurant - All Rights Reserved</p>
+    </footer>
+</body>
+</html>
